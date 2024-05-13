@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로필</title>
+</head>
+<link rel="stylesheet" href="../css/search.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body>
+    <header>
+        <a href="main.html"><img src="../image/ulogo.png" class="d-block w-100" alt="..."></a>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary noto-sans-kr">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="profile.html">소개글</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="study.html">애완동물 이해하기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adopt.html">입양신청</a>
+              </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        반려견 목록
+                    </a>
+                    <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="petView.html">반려견 보기</a></li>
+                  <li><a class="dropdown-item" href="petlist.html">나의 관심 반려견</a></li>
+                  <li><a class="dropdown-item" href="search.html">반려견 검색</a></li>
+                </ul>
+            </li>
+            <button class="btn btn-outline-success" onclick="location.href='/test.html'">회원메뉴</button>
+        </ul>
+    </div>
+</div>
+</nav>
+    <main>
+       <div class="content noto-sans-kr">
+           <div id="lfwn" class="sec">
+            <div id="lftp">
+                <div>
+                    품종 <input type="text" id="dtype" size="30" maxlength="40"> 
+                    성별 <input type="text" id="sex" size="10" maxlength="10"> 
+                        <input type="button" value="조회하기" onclick="" class="sb" id="scbtn">
+                </div>
+            </div>
+            <div class="spn">
+                <ul class="slist">
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/pthum03.jpg" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                진돗개/수컷/2개월
+                            </div>
+                            <label>
+                                <input type="button" value="찜하기" onclick="" class="sb" id="scbtn">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="button" value="찜하기" onclick="" class="sb" id="scbtn">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="button" value="찜하기" onclick="" class="sb" id="scbtn">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="button" value="찜하기" onclick="" class="sb" id="scbtn">
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="btpan">
+                찜하기를 누르시면 우측의 현재 관심 반려견 리스트에 추가됩니다.
+            </div>
+           </div>
+           <div id="rtwn" class="sec">
+            <div id="rttp">
+                <h4>현재 추가된 관심 반려견 리스트입니다.</h4>
+                <h5>tip. 저장하기 버튼을 눌러야 반영됩니다.</h5>
+            </div>
+            <div class="spn">
+                <ul class="slist">
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="checkbox" id="chk_pl" value="n" name="n">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="checkbox" id="chk_pl" value="n" name="n">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="checkbox" id="chk_pl" value="n" name="n">
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>
+                                <span class="thumb">
+                                    <img src="../image/none.png" alt="pt" width="100" height="100">
+                                </span>
+                            </div>
+                            <div class="tbtx">
+                                품종명/성별/개월
+                            </div>
+                            <label>
+                                <input type="checkbox" id="chk_pl" value="n" name="n">
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="svpan">
+                <input type="button" value="저장하기" onclick="submint()" class="sb" id="svbtn">
+                
+            </div>
+           </div>
+       </div>
+    </main>
+    <footer class="noto-sans-kr">
+        <h5 id="tf">주소: 경기도 수원시 팔달구 인계동 번지 신관 3층 208-5 KR 풍림빌딩</h6>
+        <h5>호스팅 제공자: (주)EJKIM | 사업자번호: 0000-0000-0000-0000</h5>
+    </footer>
+</body>
+</html>
+<script>
+    function submit(){
+
+    }
+</script>

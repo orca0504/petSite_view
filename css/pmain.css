@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.noto-sans-kr{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    margin: 0px;
+}
+nav{
+    float: left;
+    width: 1250px;
+    height: 60px;
+    border: 1px dotted rgb(100, 100, 100);
+}
+header{
+    float: left;
+    border: 1px dotted black;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+}
+header h1{
+    margin-top: 15px;
+}
+main{
+    float: left;
+    border: 1px dotted black;
+    width: 1250px;
+    height: 800px;
+    text-align: center;
+   
+}
+footer{
+    float: left;
+    border: 1px dotted black;
+    width: 1250px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+}
+#tf{
+    display: inline-block;
+    margin-top: 50px;
+}
